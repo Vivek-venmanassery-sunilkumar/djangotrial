@@ -1,0 +1,8 @@
+{% load static %}
+<h1>Movie project</h1>
+
+<img src="{% static 'images/cinema.png' %}" />
+{% include 'menu.html' %}
+{% block details%}
+<p>any information</p>
+{% endblock %}
